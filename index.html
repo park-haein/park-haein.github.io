@@ -11,11 +11,51 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<title>해인창고</title>
 
-	<link rel="stylesheet" herf="/assets/css/reset.css" />
-	<link rel="stylesheet" herf="/assets/css/default.css" />
-	<link rel="stylesheet" herf="/assets/css/index.css" />
+	<link rel="stylesheet" herf="/park-haein.github.io/assets/css/reset.css" />
+	<link rel="stylesheet" herf="/park-haein.github.io/assets/css/default.css" />
+	<link rel="stylesheet" herf="/park-haein.github.io/assets/css/index.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	<style>
+		/* Swiper */
+		.swiper {width: 240px; height: 320px;}
+		.swiper-slide { display: flex; align-items: center; justify-content: center; border-radius: 18px; font-size: 22px; font-weight: bold; color: #fff; }
+		.swiper-slide:nth-child(1n) {background:black;}
+		.swiper-slide:nth-child(2n) {background:black;}
+		.swiper-slide:nth-child(3n) {background:black;}
+		.swiper-slide:nth-child(4n) {background:black;}
+		.swiper-slide:nth-child(5n) {background:black;}
+		.swiper-slide:nth-child(6n) {background:black;}
+		.swiper-slide:nth-child(7n) {background:black;}
+		.swiper-slide:nth-child(9n) {background:black;}
+		.swiper-slide:nth-child(10n) {background:black;}
+	</style>
 </head>
 <body>
-	<p>Test</p>
+	<div class="p_home">
+		<div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">Slide 1</div>
+				<div class="swiper-slide">Slide 2</div>
+				<div class="swiper-slide">Slide 3</div>
+				<div class="swiper-slide">Slide 4</div>
+				<div class="swiper-slide">Slide 5</div>
+				<div class="swiper-slide">Slide 6</div>
+				<div class="swiper-slide">Slide 7</div>
+				<div class="swiper-slide">Slide 8</div>
+				<div class="swiper-slide">Slide 9</div>
+			</div>
+		</div>  
+	</div>
+
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+	var swiper = new Swiper(".mySwiper", {
+		effect: "cards",
+		grabCursor: true,
+	});
+</script>
+
 </html>
