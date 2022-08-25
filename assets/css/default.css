@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+*{margin:0; padding:0;  outline:0; text-size-adjust:none; -webkit-tap-highlight-color:transparent; }
+html{/*-webkit-overflow-scrolling:touch; -ms-overflow-scrolling:touch;*/ text-size-adjust:none; -webkit-text-size-adjust:none; }
+body{width:100%; min-width:320px; font-size:14px; letter-spacing:-1.2px; background:#fff;  } 
+header, article, footer {background:#fff;}
+section, nav, article, aside, hgroup, header, footer {display:block }
+
+a{color:#111; text-decoration:none; cursor:pointer; }
+a:link, a:visited, a:hover, a:active{text-decoration:none; }
+
+em, i, address{font-style:normal; font-weight:normal; }
+dl, ul, ol, li, menu{list-style:none; }
+h1, h2, h3, h4, h5, h6{font-size:14px; color:#111; font-weight:normal; }
+
+img, fieldset{border:0 none; }
+
+button{border:0 none; background:none; outline:none; appearance:none; -webkit-appearance:none; cursor:pointer; }
+
+legend, caption{display:none; clear:both; }
+input, textarea, select, button, table {font-size:inherit; font-family:inherit; line-height:inherit; }
+
+input, textarea{border:0; -webkit-appearance:none; appearance:none; background-image:none; outline:none; }
+textarea{resize:none; }
+select{border:0; -webkit-appearance:none; appearance:none;  }
+
